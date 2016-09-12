@@ -1,7 +1,8 @@
 {
   "name": "gulp-accessibility",
   "version": "2.0.1",
-  "description": "Grade your sites accessibility and generate a report from different WCAG levels",
+  "description": "Fork of gulp-accessibility that uses a fork of AccessSniff that supports using the HTML_CodeSniffer
+ Section508 accessibilityLevel",
   "main": "index.js",
   "scripts": {
     "test": "gulp test",
@@ -9,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yargalot/gulp-accessibility.git"
+    "url": "https://github.com/kjschulz/gulp-accessibility-jsfork.git"
   },
   "author": "Steven John Miller (http://www.stevenjohnmiller.com/)",
   "license": "ISC",
@@ -37,7 +38,7 @@
     "run-sequence": "^1.0.2"
   },
   "dependencies": {
-    "access-sniff": "^2.3.0",
+    "access-sniff": "https://github.com/kjschulz/AccessSniff#master",
     "gulp-util": "^3.0.4",
     "lodash": "^4.3.0",
     "through2": "^0.6.5"
