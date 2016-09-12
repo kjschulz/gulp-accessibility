@@ -1,8 +1,7 @@
 {
   "name": "gulp-accessibility",
   "version": "2.0.1",
-  "description": "Fork of gulp-accessibility that uses a fork of AccessSniff that supports using the HTML_CodeSniffer
- Section508 accessibilityLevel",
+  "description": "Fork of gulp-accessibility that uses a fork of AccessSniff that supports using the HTML_CodeSniffer Section508 accessibilityLevel.",
   "main": "index.js",
   "scripts": {
     "test": "gulp test",
