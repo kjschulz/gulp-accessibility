@@ -37,7 +37,7 @@
     "run-sequence": "^1.0.2"
   },
   "dependencies": {
-    "access-sniff": "https://github.com/kjschulz/AccessSniff#master",
+    "access-sniff": "https://github.com/yargalot/AccessSniff#master",
     "gulp-util": "^3.0.4",
     "lodash": "^4.3.0",
     "through2": "^0.6.5"
